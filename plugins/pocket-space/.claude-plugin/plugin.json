@@ -1,0 +1,9 @@
+{
+  "name": "pocket-space",
+  "version": "0.1.0",
+  "description": "Guidelines and skills for contributing to the Pocket Space shared drive. Enforces file format rules, naming conventions, folder structure, and README standards so all contributions stay consistent and AI-readable.",
+  "author": {
+    "name": "Pocket Space Team"
+  },
+  "keywords": ["pocket-space", "contributing", "shared-drive", "conventions"]
+}

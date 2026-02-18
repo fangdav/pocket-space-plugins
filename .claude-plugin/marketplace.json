@@ -1,0 +1,20 @@
+{
+  "name": "pocket-space-plugins",
+  "owner": {
+    "name": "Pocket Space Team"
+  },
+  "metadata": {
+    "description": "Plugins for contributing to the Pocket Space shared drive. Research workflow, file conventions, and folder navigation.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "pocket-space",
+      "source": "./plugins/pocket-space",
+      "description": "Guidelines and research workflow for the Pocket Space shared drive. Enforces file format rules, naming conventions, folder structure, Vancouver citations, and includes a full research pipeline (research-md-maker → analyzer → deep-researcher → research-synthesizer → comment-reviewer).",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": ["research", "shared-drive", "conventions", "workflow"]
+    }
+  ]
+}

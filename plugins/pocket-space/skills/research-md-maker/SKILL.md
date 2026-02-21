@@ -45,7 +45,18 @@ Segmentation strategies to consider (use whichever fit the topic):
 
 Present the proposed segments to the user for confirmation before writing. Aim for **6-12 clean, non-overlapping segments** that collectively cover the full landscape.
 
-### Step 3: Write the Research File
+### Step 3: Survey Criteria
+
+After segments are confirmed, identify **6–10 (or more) criteria** that matter for evaluating and comparing these segments. These criteria will be used by the analyzer skill to score and rank segments.
+
+Criteria should be:
+- **Relevant** to the decision or question at hand
+- **Differentiating** — criteria where segments actually vary
+- **Measurable** — can be assessed with evidence, not gut feeling
+
+Present the proposed criteria to the user for confirmation. Include them in the research file under a dedicated section so the analyzer has them ready.
+
+### Step 4: Write the Research File
 
 Structure:
 
@@ -76,6 +87,16 @@ Structure:
 
 ...
 
+## Proposed Evaluation Criteria
+
+[6-10 criteria for comparing these segments. Each with a one-line rationale.]
+
+| # | Criterion | Why It Matters |
+|---|---|---|
+| 1 | [Name] | [One-line rationale] |
+| 2 | [Name] | [One-line rationale] |
+| ... | ... | ... |
+
 ## Key Takeaways
 
 - [3-5 bullets distilling the most important findings]
@@ -90,7 +111,7 @@ Structure:
 - [List of sources used]
 ```
 
-### Step 4: File Placement
+### Step 5: File Placement
 
 - If a topic folder with a `Research/` subfolder already exists for this topic, place the .md file inside `Research/` (or a nested subfolder within it)
 - If this is the start of a new research effort that will eventually produce a .docx deliverable, create the topic folder structure:

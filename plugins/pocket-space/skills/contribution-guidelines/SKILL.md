@@ -12,24 +12,19 @@ description: >
 
 Rules for keeping the shared drive consistent, organized, and AI-readable.
 
-## Author Sign-Off
+## Authorship
 
-Every file created must include the contributor's name inside the document content (not in the file name).
-
-- **Markdown (.md):** Add `**Author:** [Name]` and `**Date:** [YYYY-MM-DD]` at the top of the document, directly below the title.
-- **Word (.docx):** Include `Author: [Name]` and `Date: [YYYY-MM-DD]` in the document header or on the title page.
-- **Excel (.xlsx):** Add an `Author` and `Date` field in a metadata row or a dedicated "Info" sheet.
-
-If editing an existing file, do not overwrite the original author. Add `**Last edited by:** [Name] — [YYYY-MM-DD]` below the original author line.
-
-Do NOT include the author's name in the file name.
+- **Include your name at the top of any file you create** (e.g., `Author: David, Feb 2026`).
+- When making significant edits to an existing file, add your name if it isn't already there.
+- Do NOT include the author's name in the file name.
 
 ## File Format Rules
 
-1. **Markdown (.md)** for all planning files — brainstorming, research, meeting notes, roadmaps, open questions, ideation, and any working/in-progress documents. Also use `.md` for any document requiring collaboration from multiple users.
-2. **Word (.docx)** only for final deliverables — polished reports, formal letters. Never use `.docx` for planning or research. Never create `.docx` unless explicitly asked.
+1. **Markdown (.md)** and **Excel (.xlsx)** for all planning files — brainstorming, research, meeting notes, roadmaps, open questions, ideation, and any working/in-progress documents. Use `.md` for files that do not require input from multiple users.
+2. **Word (.docx)** only for final deliverables — polished reports, formal letters, or documents that **require** ongoing collaboration or input from multiple users. Do **not** use `.docx` for planning or research. **Do not make .docx files unless explicitly asked.**
 3. **Excel (.xlsx)** for tabular data and spreadsheets.
 4. **Allowed formats**: `.md`, `.docx`, `.xlsx`, `.csv`, `.json` — nothing else.
+5. **Do not use Google Docs** — all documents must be stored as local files (`.md`, `.docx`, etc.) in this shared drive, not as Google Docs links or files.
 
 ## Naming Conventions
 

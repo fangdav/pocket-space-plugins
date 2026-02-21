@@ -39,7 +39,7 @@ Financial modeling, projections, and budget assumptions.
 ### Marketing/
 All marketing strategy, channel planning, and go-to-market work.
 - `Branding/` — Brand strategy and visual direction
-- `Customer_Acquisition/` — Acquisition strategies by channel (Customer_Side, Host_Side, Go_to_Market, Grassroots, Influencer, Partnerships, Social_Media, Traditional_Ads, Other)
+- `Customer_Acquisition/` — Acquisition strategies by channel (Customer_Side, Host_Side, Go_to_Market, Grassroots_Marketing, Influencer_Marketing, Partnerships, Social_Media, Traditional_Ads, Other)
 - `Marketing_Budget/` — Budget planning and allocation
 - `Marketing_Ops/` — Operational tooling (Analytics, SEO, Technology_Stack)
 - `General_Research/` — Marketing-specific research

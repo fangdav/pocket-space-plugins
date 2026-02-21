@@ -40,28 +40,15 @@ If pulling from existing research:
 
 Aim for **4-12 options** — enough for meaningful comparison, not so many the matrix becomes unreadable.
 
-### Step 2: Select Criteria
+### Step 2: Use or Refine Criteria
 
-This is the most important step. Propose criteria that are:
-- **Relevant** to the decision at hand
-- **Differentiating** — criteria where options actually vary (skip criteria where everything scores the same)
-- **Measurable** — each criterion can be assessed with evidence, not just gut feeling
-- **Balanced** — cover multiple dimensions, not just one angle
+If a parent research file (from research-md-maker) exists, it should already contain a **Proposed Evaluation Criteria** section. Start there:
 
-Criteria selection strategies (use whichever fit):
+1. Locate the criteria in the parent research file
+2. Present them to the user — confirm, add, remove, or adjust as needed
+3. Ensure criteria are **differentiating** (skip any where all options score the same)
 
-| Dimension | Example Criteria |
-|---|---|
-| **Financial** | Cost, revenue potential, ROI, funding required, unit economics |
-| **Technical** | Complexity, scalability, integration effort, maintenance burden |
-| **Market** | Market size, growth rate, competition intensity, timing |
-| **User** | Ease of use, adoption barrier, retention potential, NPS |
-| **Strategic** | Alignment with vision, defensibility, network effects, optionality |
-| **Risk** | Regulatory risk, execution risk, dependency risk, reversibility |
-| **Operational** | Time to implement, team capability, resource requirements |
-| **Competitive** | Differentiation, barriers to entry, incumbent strength |
-
-Propose **5-10 criteria** and present them to the user for confirmation. Explain why each was chosen.
+If no pre-identified criteria exist, propose **6-10 criteria** that are relevant, differentiating, measurable, and balanced across dimensions (financial, technical, market, strategic, risk, etc.). Present them to the user for confirmation.
 
 ### Step 3: Ask Output Format
 

@@ -2,10 +2,10 @@
 name: deep-researcher
 description: >
   This skill should be used when the user asks to "go deeper on X", "drill into this segment",
-  "I want more detail on X", "deep dive into X", "expand on this section", or wants to take
-  a segment from a broad research file and produce a longer, more detailed investigation.
-  Typically follows the analyzer — takes the top-ranked segments and produces standalone
-  deep-dive documents for each.
+  "I want more detail on X", "deep dive into X", "expand on this section", "deep research
+  into these segments", "research the top segments", or wants to take a segment from a broad
+  research file and produce a longer, more detailed investigation. Typically follows the
+  analyzer — takes the top-ranked segments and produces standalone deep-dive documents for each.
 ---
 
 # Deep Researcher
@@ -29,12 +29,13 @@ Every deep-dive document must **hyperlink back to the parent research file and c
 
 ## Execution Flow
 
-### Step 1: Identify the Parent Research File
+### Step 1: Identify Source Files and Confirm Segments
 
-1. Ask the user which segment(s) they want to drill into
-2. Locate the parent research .md file in the shared drive
-3. Read the relevant segment(s) from that file to understand what's already been covered
-4. Note the parent file path — this will be linked in the output
+1. Locate the parent research .md file in the shared drive
+2. Check for a comparison matrix (`.md` or `.xlsx`) from the analyzer — if one exists, read the rankings to understand which segments scored highest
+3. Present the available segments to the user and **confirm which segment(s) they want to deep-dive** before proceeding
+4. Read the relevant segment(s) from the parent file to understand what's already been covered
+5. Note the parent file path and comparison matrix path — both will be linked in the output
 
 If no parent file exists, ask the user if they want to run research-md-maker first to establish the landscape, or proceed directly with the deep dive.
 
@@ -64,6 +65,7 @@ Structure:
 **Author:** [Name]
 **Date:** [YYYY-MM-DD]
 **Parent Research:** [Hyperlink to the parent research .md file]
+**Comparison Matrix:** [Hyperlink to the comparison matrix .md or .xlsx, if it exists]
 
 ## Context
 
@@ -166,8 +168,9 @@ Deep-dive files live inside the `Research/` folder of the topic folder, nested u
 
 The finished document must include:
 1. **Link to parent research file** — In the header metadata and in the Context section, hyperlink to the .md file from research-md-maker that this deep dive expands on (use relative path within the `Research/` folder)
-2. **Links to sibling deep dives** — If other segments from the same parent file have also been deep-dived, cross-link to those documents within neighboring segment subfolders
-3. **Update the parent file** — Add a note in the parent research .md under the relevant segment: `See also: [Segment_Deep_Dive.md](link)` pointing to this new document
+2. **Link to comparison matrix** — If a comparison matrix (`.md` or `.xlsx`) exists from the analyzer, hyperlink to it in the header metadata
+3. **Links to sibling deep dives** — If other segments from the same parent file have also been deep-dived, cross-link to those documents within neighboring segment subfolders
+4. **Update the parent file** — Add a note in the parent research .md under the relevant segment: `See also: [Segment_Deep_Dive.md](link)` pointing to this new document
 
 ## Sources & Citations (Vancouver Style)
 
